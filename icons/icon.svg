@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="url(#bgGradient)"/>
+  <!-- Clock circle -->
+  <circle cx="64" cy="58" r="32" fill="none" stroke="white" stroke-width="4"/>
+  <!-- Clock hands -->
+  <line x1="64" y1="58" x2="64" y2="38" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <line x1="64" y1="58" x2="80" y2="58" stroke="white" stroke-width="4" stroke-linecap="round"/>
+  <!-- Eraser/delete indicator -->
+  <circle cx="88" cy="88" r="18" fill="#EF4444"/>
+  <line x1="80" y1="88" x2="96" y2="88" stroke="white" stroke-width="4" stroke-linecap="round"/>
+</svg>

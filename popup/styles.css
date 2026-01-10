@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Simple popup styles */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#app {
+  display: block;
+}

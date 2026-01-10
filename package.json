@@ -1,0 +1,22 @@
+{
+  "name": "history-remover-pro",
+  "version": "1.0.0",
+  "description": "Chrome extension for selectively deleting browsing history",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build:popup": "BUILD_TARGET=popup vite build",
+    "build:page": "BUILD_TARGET=page vite build",
+    "build": "npm run build:popup && npm run build:page",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/vite": "^4.0.0"
+  },
+  "dependencies": {
+    "vue": "^3.4.0"
+  }
+}
