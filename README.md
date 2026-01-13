@@ -1,5 +1,7 @@
 # History Remover Pro
 
+![History Remover Pro Banner](banner.jpg)
+
 A powerful Chrome extension for selectively deleting browsing history with advanced filtering options.
 
 ![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-green?logo=googlechrome)
